@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="3D modeling services using SolidWorks and 3D printing for product design and prototyping.">
+    <title>Your Name - 3D Modeling & Product Design</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Your Name or Business Name</h1>
+        <p>3D Modeling & Product Design Services Using SolidWorks</p>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Product Design & Prototyping</h3>
+            <p>Create detailed product designs and prototypes using SolidWorks.</p>
+        </div>
+        <div class="service">
+            <h3>3D Printing Optimization</h3>
+            <p>Optimize models for 3D printing with the best file formats and tolerances.</p>
+        </div>
+        <div class="service">
+            <h3>Assembly & Technical Drawings</h3>
+            <p>Provide 3D assemblies, exploded views, and technical drawings for manufacturing.</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-item">
+            <img src="image1.jpg" alt="Portfolio Item 1">
+            <p>Product Design for Client A</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="image2.jpg" alt="Portfolio Item 2">
+            <p>Mechanical Part Assembly for Project B</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="send-message.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Your Name or Business Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
